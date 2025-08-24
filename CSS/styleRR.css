@@ -10,6 +10,7 @@
   to { opacity: 1; transform: scale(1); }
 }
 
+
 html {
      scroll-behavior: smooth;
 }
@@ -315,11 +316,11 @@ a,
 
 .about_img img{
 
-     max-width: 70%;
+     max-width: 65%;
      height: auto;
      width: 500px;
-     margin-left: 130px;
-     border-radius: 10%;
+     margin-left: 180px;
+     border-radius: 50%;
 }
 
 .container-fluid img{
@@ -1995,8 +1996,6 @@ margin: 0 auto;
      font-size: 43px;
      color: #163f03;
      line-height: 55px;
-     padding-bottom: 7px;
-    display: block;
     text-transform: uppercase;
         padding: 0px 0px 6px 0px;
             border-bottom: #163f03 solid 1px;
@@ -2008,6 +2007,7 @@ margin: 0 auto;
      color: #4c4a49;
      padding: 40px 0px;
      font-weight: 500;
+     max-width: 900px;
 }
 .about .about_box a {
          color: #fff;
@@ -2030,7 +2030,7 @@ border-radius: 18px;
      
 margin-top: 10px;}
 .about_img figure {margin: 0;}
-.about_img figure img {width: 20%;}
+.about_img figure img {width: 90%;}
 /** end about **/
 
 

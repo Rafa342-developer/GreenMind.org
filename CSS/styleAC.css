@@ -1,7 +1,8 @@
 
 
 .mateo1{
-    border-radius: 35%;
+    border-radius: 50%;
+    max-width: 250px;
 }
 
 
@@ -9,6 +10,14 @@
   flex: 1;
   margin-top: -3%;
 }
+
+.juma{
+  border-radius: 50%;
+  max-width: 350px;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
 
 .col-md-6 h2 {
   color: #143315;

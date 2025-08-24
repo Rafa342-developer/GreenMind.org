@@ -228,6 +228,221 @@ body {
 
 
 
+
+
+/* Espaciado general en los lados */
+.energia-container {
+  background-color: #002900;
+  color: #fff;
+  padding: 50px 8%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.consumo-vampiro {
+  background-color: #d8f3a3;
+  color: #111;
+  padding: 30px;
+  border-radius: 18px;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Tarjetas */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.tarjeta {
+  background: #fff;
+  color: #333;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.tarjeta:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.tarjeta-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border-radius: 50%;
+}
+
+.tarjeta-info {
+  padding: 20px;
+}
+
+.btn-tarjeta {
+  background: #007a33;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-tarjeta:hover {
+  background: #005f26;
+}
+
+/* MODALES */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  color: #333;
+  padding: 35px 25px;
+  border-radius: 18px;
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  position: relative;
+  animation: fadeIn 0.4s ease;
+}
+
+.juel {
+  max-width: 150px;
+}
+
+.juel2 {
+  max-width: 75px;
+}
+
+
+
+.modal-content h3 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #007a33;
+  font-weight: 500;
+}
+
+.modal-content p {
+  font-size: 1.5rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.cerrar {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.cerrar:hover {
+  color: #007a33;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.9);}
+  to {opacity: 1; transform: scale(1);}
+}
+
+
+
+
+.energia-consejos h2 {
+  color: #f2c744;
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.energia-consejos p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #ddd;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.tarjeta {
+  background: #fff;
+  color: #333;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.tarjeta:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.tarjeta-info {
+  padding: 20px;
+}
+
+.tarjeta-info h3 {
+  font-size: 1.2rem;
+  color: darkgreen;
+  margin-bottom: 10px;
+}
+
+
+.btn-tarjeta {
+  background: darkgreen;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-tarjeta:hover {
+  background: #005f26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .tarjeta {
   background-color: #ffffff;
   border-radius: 12px;
@@ -315,6 +530,7 @@ a {
      font-size: 30px;
      line-height: 1.6;
      padding: 20px 30px;
+     background-color: #ffff;
 }
 .beneficios h3 {
      font-size: 45px;
@@ -339,6 +555,7 @@ a {
 }
 /*otro contendor de beneficios; imagenes y texto*/
 .beneficios2 {
+  margin-top: 0;
   display: flex;
   justify-content: center;
   text-align: justify;

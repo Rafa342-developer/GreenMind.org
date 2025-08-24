@@ -38,11 +38,11 @@ margin: 0 auto;
     
      display: inline-block;
      border-radius: 50%;
-     width: 400px;
-     height:400px;
+     width: 350px;
+     height:350px;
      object-fit: cover;
-     margin-left:50px;
-     margin-top: 0%; 
+     margin-left:130px;
+     margin-top: -5%; 
 
 }
 
@@ -90,11 +90,11 @@ margin: 0 auto;
      font-size: 20px;
      line-height: 33px;
      color: #4c4a49;
-     padding: 40px 0px;
+     padding: 20px 0px;
      font-weight: 500;
      text-align: justify;
-     margin-right: 2rem;
-     margin-left: 2rem;
+     margin-right: 0rem;
+     margin-left: 0rem;
 }
 .patito .patito_box a {
          color: #fff;
@@ -135,6 +135,19 @@ margin: 0 auto;
      margin-bottom: 30px;
 }
 
+.kiko {
+       color: #f8f9fa;              /* blanco suave */
+  font-size: 1.15rem;          /* tamaño legible (~18px) */
+  line-height: 4rem;            /* espacio entre líneas */
+  max-width: 650px;            /* evita párrafos demasiado anchos */
+  text-align: justify;         /* alineación elegante */
+  margin: 20px auto;           /* centrado con espacio */
+  padding: 18px 22px;          /* aire interno */
+  background: rgba(255, 255, 255, 0.06); /* leve contraste */
+  border-left: 4px solid #95d5b2;        /* detalle sutil */
+  border-radius: 10px;         /* esquinas suaves */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* da relieve */
+}
 
 .pato .pato-bg {
      background: #052501;
@@ -149,7 +162,7 @@ margin: 0 auto;
     
     
      border-radius: 20%;
-     width: 400px;
+     width: 300px;
      height:500;
      object-fit:cover;
      gap: 2px;
@@ -160,11 +173,9 @@ margin: 0 auto;
      color: #fff;
     padding-bottom: 30px;
 }
-.pato .pato-bg .pato_box p {padding-top: 20px; font-size: 26px; line-height: 24px; color: #fff; 
+.pato .pato-bg .pato_box p {padding-top: 20px; font-size: 26px; line-height: 30px; color: #fff; 
 margin-top: 1rem;
 margin-right: 3rem;}
-
-
 
 .margin_ttt {margin-top: 100px;}
 .margin-lkk {margin-top: 200px;}
@@ -178,6 +189,8 @@ margin-right: 3rem;}
 .perro .title h2 {max-width: 700px;
  width: 100%; 
 }
+
+
 .perro .p{font-size: 25px;
      line-height: 33px;
      color: #4c4a49;
